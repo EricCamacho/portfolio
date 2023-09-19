@@ -238,6 +238,9 @@ hr {
   color: rgb(110, 13, 13); 
 }
 
+.quebra-pagina {
+  page-break-before: always; /* Força uma quebra de página antes deste elemento */
+}
 
 /* Row */
 .row {
