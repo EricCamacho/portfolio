@@ -356,35 +356,36 @@
 						</div>
 					</div>
 				</section>
-
-				<section id="secao6">
-					<header class="major">
-						<h1>Contato</h1>
-					</header>
-					<p>Sinta-se à vontade para entrar em contato!</p>
-					<ul class="contact">
-                        
-						<li class="icon solid fa-envelope">
-                             
-                            <a href="#" id="copiarEmail">uriohm@gmail.com</a>
-                            <script>
-                                document.getElementById('copiarEmail').addEventListener('click', function() {
-                                    var email = 'uriohm@gmail.com'; // Substitua com o seu endereço de e-mail
-                                    var tempInput = document.createElement('input');
-                                    tempInput.value = email;
-                                    document.body.appendChild(tempInput);
-                                    tempInput.select();
-                                    document.execCommand('copy');
-                                    document.body.removeChild(tempInput);
-                                    alert('Endereço de e-mail copiado para a área de transferência');
-                                });
-                            </script>
-						<li class="icon brands fa-linkedin"><a
-							href="https://www.linkedin.com/in/eric-camacho/">LinkedIn</a></li>
-						<li class="icon brands fa-medium-m"><a 
-                            href="https://medium.com/@uriohm">Medium</a></li>
-					</ul>
-				</section>
+				<div class="quebra-pagina">
+					<section id="secao6">
+						<header class="major">
+							<h1>Contato</h1>
+						</header>
+						<p>Sinta-se à vontade para entrar em contato!</p>
+						<ul class="contact">
+							
+							<li class="icon solid fa-envelope">
+								
+								<a href="#" id="copiarEmail">uriohm@gmail.com</a>
+								<script>
+									document.getElementById('copiarEmail').addEventListener('click', function() {
+										var email = 'uriohm@gmail.com'; // Substitua com o seu endereço de e-mail
+										var tempInput = document.createElement('input');
+										tempInput.value = email;
+										document.body.appendChild(tempInput);
+										tempInput.select();
+										document.execCommand('copy');
+										document.body.removeChild(tempInput);
+										alert('Endereço de e-mail copiado para a área de transferência');
+									});
+								</script>
+							<li class="icon brands fa-linkedin"><a
+								href="https://www.linkedin.com/in/eric-camacho/">LinkedIn</a></li>
+							<li class="icon brands fa-medium-m"><a 
+								href="https://medium.com/@uriohm">Medium</a></li>
+						</ul>
+					</section>
+				</div>
 			</div>
 			</section>
 
